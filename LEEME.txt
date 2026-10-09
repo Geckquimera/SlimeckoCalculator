@@ -1,0 +1,10 @@
+SITIO DE HERRAMIENTAS (estático, 32 páginas)
+
+1. Reemplaza https://TU-DOMINIO.com por tu dominio real en todos los archivos
+   (buscar y reemplazar en toda la carpeta: afecta canonical, og:url, sitemap.xml y robots.txt).
+2. Sube la carpeta completa a Cloudflare Pages o GitHub Pages (sin build, solo la carpeta).
+3. En Google Search Console agrega tu dominio y envía https://TU-DOMINIO.com/sitemap.xml
+4. Cuando tengas AdSense, pega su script en el <head> de cada página (busca </head> y reemplaza en todos los archivos) y coloca los bloques de anuncio donde quieras.
+
+Estructura: index.html (lista), assets/style.css y assets/app.js (compartidos), y una carpeta por herramienta con su index.html.
+Para cambiar el diseño o la lógica edita solo assets/style.css o assets/app.js.

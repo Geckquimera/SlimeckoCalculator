@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aguinaldo gratis | Herramientas rápidas</title>
+<meta name="description" content="Calcula tu aguinaldo en México con tu salario diario, los días que te corresponden y los días trabajados en el año.">
+<link rel="canonical" href="https://TU-DOMINIO.com/calculadora-de-aguinaldo/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aguinaldo gratis | Herramientas rápidas">
+<meta property="og:description" content="Calcula tu aguinaldo en México con tu salario diario, los días que te corresponden y los días trabajados en el año.">
+<meta property="og:url" content="https://TU-DOMINIO.com/calculadora-de-aguinaldo/">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-tool="aguinaldo">
+<main>
+<p class="crumb"><a href="../">← Todas las herramientas</a></p>
+<h1>Aguinaldo</h1>
+<p class="sub">Calcula tu aguinaldo en México con tu salario diario, los días que te corresponden y los días trabajados en el año.</p>
+<select id="nav" hidden></select>
+<section id="p0" role="tabpanel" aria-labelledby="t0">
+<div class="screen"><small id="c-hist"></small><span id="c-out">0</span></div>
+<div class="pad" id="c-pad"></div>
+</section>
+
+<section id="p1" role="tabpanel" aria-labelledby="t1" hidden>
+<label for="v-cat">Qué quieres convertir</label>
+<select id="v-cat"></select>
+<label for="v-in">Cantidad</label>
+<input id="v-in" type="number" inputmode="decimal" value="1">
+<div class="row">
+<div><label for="v-from">De</label><select id="v-from"></select></div>
+<div><label for="v-to">A</label><select id="v-to"></select></div>
+</div>
+<p class="big" id="v-out" aria-live="polite"></p>
+</section>
+
+<section id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+<div class="screen"><small id="s-res"></small><span id="s-out"></span></div>
+<label for="s-in">Escribe la operación</label>
+<input id="s-in" type="text" inputmode="text" autocomplete="off" placeholder="sin(30)+sqrt(16)^2">
+<div class="pad s" id="s-pad"></div>
+<div class="row" style="margin-top:12px">
+<button class="k o" id="s-mode" type="button">Grados</button>
+<button class="k eq" id="s-go" type="button">Calcular</button>
+</div>
+</section>
+
+<section id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+<label for="z-gen">Para quién es</label>
+<select id="z-gen"><option value="mujer">Mujer</option><option value="hombre">Hombre</option></select>
+<label for="z-pren">Qué prenda buscas</label>
+<select id="z-pren"></select>
+<label for="z-un">Unidad de medida</label>
+<select id="z-un"><option value="1">Centímetros</option><option value="2.54">Pulgadas</option></select>
+<div id="z-w-busto"><label for="z-busto">Busto (en la parte más ancha del pecho)</label><input id="z-busto" type="number" inputmode="decimal" min="0"></div>
+<div id="z-w-cintura"><label for="z-cintura">Cintura (en la parte más angosta)</label><input id="z-cintura" type="number" inputmode="decimal" min="0"></div>
+<div id="z-w-cadera"><label for="z-cadera">Cadera (en la parte más ancha)</label><input id="z-cadera" type="number" inputmode="decimal" min="0"></div>
+<div class="verdict" id="z-res" aria-live="polite">Escribe tus medidas para ver tu talla.</div>
+<p class="hint">Mide sobre la piel o ropa muy ligera, sin apretar la cinta. La talla puede variar según la marca: revisa su tabla si la tiene.</p>
+</section>
+<section id="p4" hidden></section>
+<aside class="rel"><h2>Más herramientas de dinero y trabajo</h2><ul><li><a href="../calculadora-de-vacaciones-y-prima-vacacional/">Vacaciones y prima vacacional</a></li><li><a href="../calculadora-de-finiquito-y-liquidacion/">Finiquito y liquidación</a></li><li><a href="../calculadora-de-pago-mensual-de-credito/">Pago mensual de un crédito</a></li><li><a href="../calculadora-de-iva/">Calculadora de IVA</a></li><li><a href="../calculadora-de-porcentajes-y-descuentos/">Porcentajes y descuentos</a></li><li><a href="../calculadora-de-propina-y-dividir-cuenta/">Propina y dividir la cuenta</a></li></ul></aside>
+<footer>Gratis, sin registro y sin guardar tus datos. Los resultados son estimaciones de referencia. <a href="../">Ver todas las herramientas</a></footer>
+</main>
+<script src="../assets/app.js"></script>
+</body>
+</html>
